@@ -10,7 +10,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
-		target: 'svelte',
+		target: '#svelte',
 		vite: {
 			hmr: {
 				clientPort: process.env.HMR_HOST ? 443: 5173,
